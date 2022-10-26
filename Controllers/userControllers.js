@@ -81,7 +81,10 @@ const registerUser = async (req, res) =>
 	}
 }
 
-const user = () => { }
+const user = () =>
+{
+	console.log("hello world")
+}
 
 
 module.exports = {
