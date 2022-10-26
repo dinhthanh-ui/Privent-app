@@ -81,6 +81,8 @@ const registerUser = async (req, res) =>
 	}
 }
 
+const user = () => { }
+
 
 module.exports = {
 	registerUser: registerUser,
